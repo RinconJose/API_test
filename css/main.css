@@ -1,0 +1,51 @@
+#form {
+  width: 250px;
+  margin: 0 auto;
+  height: 50px; }
+
+#form p {
+  text-align: center; }
+
+#form label {
+  font-size: 20px; }
+
+input[type="radio"] {
+  display: none; }
+
+label {
+  color: grey; }
+
+.clasificacion {
+  text-align: center;
+  direction: rtl;
+  unicode-bidi: bidi-override;
+  font-size: 40px; }
+
+label:hover,
+label:hover ~ label {
+  cursor: pointer;
+  color: orange; }
+
+input[type="radio"]:checked ~ label {
+  color: orange; }
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: palegoldenrod; }
+  body .contenedor {
+    width: 80% auto;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap; }
+    body .contenedor .texto {
+      text-align: center;
+      font-size: 40px;
+      font-family: cursive;
+      color: orange; }
+    body .contenedor .img_pantalla {
+      border: 5px solid orange; }
+
+/*# sourceMappingURL=main.css.map */

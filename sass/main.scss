@@ -1,0 +1,27 @@
+@import 'estrellas/estilos-estrella';
+
+// -----------------Estilos generales-----------------
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: palegoldenrod;
+    .contenedor {
+        width: 80% auto;
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        .texto {
+            text-align: center;
+            font-size: 40px;
+            font-family: cursive;
+            color: orange;
+        }
+        .img_pantalla{
+            border: 5px solid orange;
+        }
+    }
+}
+
